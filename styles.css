@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    min-height: 100vh;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+.chat {
+    margin: 0 150px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    position: relative;
+}
+
+.text {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #222;
+    position: relative;
+    outline: none;
+    color: white;
+    font-size: 16px;
+}
+
+button {
+    background: 0;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 25px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    right: 70px;
+}
+
+.theirs {
+    background-color: #444;
+    border-radius: 20px;
+    margin: 4px;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+#messages {
+    display: flex;
+    flex-direction: column;
+}
+
+#messages img {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+}
+
+#messages div {
+    margin: 10px 0;
+    /*background-color: #07c; */
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px 10px;
+}
+
+.drop-zone__thumb {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+}
